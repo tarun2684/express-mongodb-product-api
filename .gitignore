@@ -1,0 +1,56 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables - especially important as your code contains MongoDB credentials
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+out/
+
+# MongoDB local data (if you ever switch to local MongoDB)
+data/db/
+
+# Coverage reports (if you add testing)
+coverage/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.editorconfig
+
+# Temporary files
+tmp/
+.tmp/
+temp/
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
